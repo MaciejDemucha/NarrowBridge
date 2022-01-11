@@ -25,7 +25,7 @@ public class NarrowBridge {
 
     // Wydruk informacji o busach oczekujących w kolejce oraz
     // aktualnie przejeżdżających przez most.
-    void printBridgeInfo(Bus bus, String message, JTextField field){
+    void printBridgeInfo(Bus bus, String message){
         StringBuilder sb = new StringBuilder();
         sb.append("data.Bus["+bus.id+"->"+bus.dir+"]  ");
         sb.append(message+"\n");
