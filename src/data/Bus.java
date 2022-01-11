@@ -1,3 +1,13 @@
+/*
+ *  Program: Symulacja przejazdu przez wąski most
+ *     Plik: Bus.java
+ *
+ *  Obiekty klasy Bus reprezentują busy przejeżdżające przez most.
+ *
+ *    Autor: Maciej Demucha
+ *    Data:  14 stycznia 2022 r.
+ */
+
 package data;
 
 import java.util.concurrent.ThreadLocalRandom;
@@ -68,6 +78,7 @@ public class Bus implements Runnable {
         System.out.println("data.Bus[" + id + "->"+dir+"]: " + message);
     }
 
+    //Metoda zwracająca numer busa
     public String getId() {
         return String.valueOf(id);
     }
@@ -132,4 +143,4 @@ public class Bus implements Runnable {
         bridge.allBuses.remove(this);
     }
 
-}  // koniec klasy data.Bus
+}

@@ -1,10 +1,22 @@
+/*
+ *  Program: Symulacja przejazdu przez wąski most
+ *     Plik: CustomOutputStream.java
+ *
+ *  Klasa CustomOutputStream odpowiada za przekierowanie strumienia
+ *  wyjściowego na obiekt textArea.
+ *
+ *    Autor: Maciej Demucha
+ *    Data:  14 stycznia 2022 r.
+ */
+
+
 package data;
 
 import javax.swing.*;
 import java.io.PrintStream;
 
 public class CustomOutputStream extends PrintStream {
-
+    //Referencja na obiekt textArea
     private JTextArea text;
 
     public CustomOutputStream(JTextArea textArea, PrintStream capturedStream) {

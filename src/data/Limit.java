@@ -1,3 +1,13 @@
+/*
+ *  Program: Symulacja przejazdu przez wąski most
+ *     Plik: Limit.java
+ *
+ *  Enum limit określa opcje ograniczeń ruchu na moście.
+ *
+ *    Autor: Maciej Demucha
+ *    Data:  14 stycznia 2022 r.
+ */
+
 package data;
 
 public enum Limit {
