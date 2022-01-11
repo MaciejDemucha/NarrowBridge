@@ -10,6 +10,7 @@
 
 package data;
 
+import java.awt.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Bus implements Runnable {
@@ -124,7 +125,7 @@ public class Bus implements Runnable {
         // jazda w kierunku mostu
         goToTheBridge();
 
-        //
+        //Wjazd na most
         bridge.getOnTheBridge(this);
 
         // przejazd przez most
@@ -141,6 +142,10 @@ public class Bus implements Runnable {
 
         // koniec "życia" wątku
         bridge.allBuses.remove(this);
+    }
+
+    void draw(Graphics2D g){
+        //g.drawOval();
     }
 
 }

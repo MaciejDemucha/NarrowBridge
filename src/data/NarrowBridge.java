@@ -284,6 +284,7 @@ public class NarrowBridge extends JFrame {
     //Metoda main
     public static void main(String[] args) {
         NarrowBridge bridge = new NarrowBridge();
+        NarrowBridgeAnimation animation = new NarrowBridgeAnimation(bridge);
 
         // Zadaniem tej pętli jest tworzenie kolejnych busów,
         // które mają przewozić przez most pasażerów:
