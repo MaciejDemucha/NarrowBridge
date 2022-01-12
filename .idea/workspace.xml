@@ -21,8 +21,24 @@
   <component name="ChangeListManager">
     <list default="true" id="1d3a10cc-8c5b-42dd-a29e-dc8aad2b7d87" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/META-INF/lab5.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/data/Bus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/data/Bus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/data/NarrowBridge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/data/NarrowBridge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab5/data/NarrowBridgeAnimation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab5/data/NarrowBridgeAnimation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Bus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/NarrowBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/NarrowBridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/NarrowBridgeAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/NarrowBridgeAnimation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,22 +163,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1641642649412" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1641912938177">
+    <state width="1478" height="188" key="GridCell.Tab.0.bottom" timestamp="1641993264202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1641912938177" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1641912938177">
+    <state width="1478" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1641993264202" />
+    <state width="1478" height="188" key="GridCell.Tab.0.center" timestamp="1641993264202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1641912938177" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1641912938177">
+    <state width="1478" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1641993264202" />
+    <state width="1478" height="188" key="GridCell.Tab.0.left" timestamp="1641993264202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1641912938177" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1641912938177">
+    <state width="1478" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1641993264202" />
+    <state width="1478" height="188" key="GridCell.Tab.0.right" timestamp="1641993264202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1641912938177" />
+    <state width="1478" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1641993264202" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1641912938177">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

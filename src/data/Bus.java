@@ -11,6 +11,7 @@
 package data;
 
 import java.awt.*;
+import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Bus implements Runnable {
@@ -38,6 +39,8 @@ public class Bus implements Runnable {
     private static int numberOfBuses = 0;
 
 
+
+
     // Metoda usypia wątek na podany czas w milisekundach
     public static void sleep(int millis) {
         try {
@@ -60,6 +63,9 @@ public class Bus implements Runnable {
     // Jako identyfikator zostanie użyty numer busa,
     // który został utworzony od początku działania programu
     int id;
+    int x;
+    int y;
+    int r = 15;
 
     // Kierunek jazdy busa nadany w sposób losowy
     BusDirection dir;
@@ -71,6 +77,16 @@ public class Bus implements Runnable {
         if (ThreadLocalRandom.current().nextInt(0, 2) == 0)
             this.dir = BusDirection.EAST;
         else this.dir = BusDirection.WEST;
+
+        if(this.dir.equals(BusDirection.EAST)){
+            this.x = 20;
+        }
+        else{
+            this.x = 570;
+        }
+
+        Random rand = new Random();
+        this.y = rand.nextInt(650-r);
     }
 
 
@@ -145,7 +161,16 @@ public class Bus implements Runnable {
     }
 
     void draw(Graphics2D g){
-        //g.drawOval();
+
+        if(this.dir.equals(BusDirection.EAST)){
+            g.setColor(Color.red);
+        }
+        else{
+            g.setColor(Color.green);
+        }
+        g.fillOval(this.x-r, this.y-r, 2*r, 2*r);
+        g.setColor(Color.black);
+        g.drawString(this.getId(), this.x, this.y);
     }
 
 }

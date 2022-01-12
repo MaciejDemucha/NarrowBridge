@@ -31,10 +31,10 @@ public class NarrowBridge extends JFrame {
      List<Bus> allBuses = new LinkedList<Bus>();
 
     // Lista busów (kolejka) oczekujących na wjazd na most
-    public List<Bus> busesWaiting = new LinkedList<Bus>();
+     List<Bus> busesWaiting = new LinkedList<Bus>();
 
     // Lista busów poruszających się aktualnie po moście
-    public List<Bus> busesOnTheBridge = new LinkedList<Bus>();
+     List<Bus> busesOnTheBridge = new LinkedList<Bus>();
 
     //Zmienna określająca aktualnie ustawiony limit przejazdu
     int limitOption = 1;
@@ -55,6 +55,7 @@ public class NarrowBridge extends JFrame {
         sb.append("    Kolejka: ");
         for(Bus b: busesWaiting) sb.append(b.id + "  ");
         System.out.println(sb);
+
 
         //Utworzenie listy busów w kolejce w postaci Stringa
         StringBuilder waiting = new StringBuilder();
@@ -189,7 +190,7 @@ public class NarrowBridge extends JFrame {
 
     private JPanel Panel = new JPanel();
 
-    public NarrowBridge(){
+     NarrowBridge(){
         super("Symulacja przejazdu przez wąski most");
         //Przekierowanie strumienia wyjściowego do textArea
         System.setOut(new CustomOutputStream(textAreaNotifications, System.out));
